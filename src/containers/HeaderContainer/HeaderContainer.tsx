@@ -175,7 +175,7 @@ const HeaderContainer: FC<HeaderContainerProps> = ({ className = "" }) => {
                         {renderRadioHeaders()}
                         {renderRadioHomePages()}
                       </div>
-                      <div className="bg-gray-50 dark:bg-white/5 p-5">
+                      {/* <div className="bg-gray-50 dark:bg-white/5 p-5">
                         <a
                           className="flex items-center justify-center w-full bg-primary-6000 hover:bg-primary-700 text-neutral-50 px-4 py-2 !rounded-xl text-sm font-medium"
                           href={
@@ -187,7 +187,7 @@ const HeaderContainer: FC<HeaderContainerProps> = ({ className = "" }) => {
                           <ShoppingCartIcon className="w-4 h-4" />
                           <span className="ml-2">Buy this template</span>
                         </a>
-                      </div>
+                      </div> */}
                     </div>
                   </Popover.Panel>
                 </Transition>

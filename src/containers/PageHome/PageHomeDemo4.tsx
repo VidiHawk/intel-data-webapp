@@ -100,7 +100,7 @@ const PageHomeDemo4: React.FC = () => {
   return (
     <div className="nc-PageHomeDemo4 relative">
       <Helmet>
-        <title>Home 2 || Blog Magazine React Template</title>
+        <title>The Informant | Actionable data for executives</title>
       </Helmet>
 
       {/* ======== ALL SECTIONS ======== */}
@@ -108,11 +108,11 @@ const PageHomeDemo4: React.FC = () => {
         <SectionHero2
           href="/single-template-3/this-is-single-slug"
           youtubeID="qTsXfGVjm1w"
-          rightImg="https://images.pexels.com/photos/4666750/pexels-photo-4666750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          heading="The hidden world of whale culture"
-          subHeading="From singing competitions to food preferences, scientists are
-          learning whales have cultural differences once thought to be unique
-          to humans."
+          rightImg="images/globe.jpg"
+          heading="The Informant"
+          subHeading="Access the most in-depth data on media propaganda from
+          around the world. The Informant brings you non-opinionated analytics so
+          you can stay ahead of your competitors."
         />
         <div className="relative overflow-hidden">
           {/* ======== BG GLASS ======== */}
@@ -145,7 +145,7 @@ const PageHomeDemo4: React.FC = () => {
             />
 
             {/* SECTION 3 */}
-            <div className="relative py-16">
+            {/* <div className="relative py-16">
               <BackgroundSection />
               <SectionSliderNewAuthors
                 heading="Newest authors"
@@ -153,19 +153,19 @@ const PageHomeDemo4: React.FC = () => {
                 authors={DEMO_AUTHORS.filter((_, i) => i < 10)}
                 uniqueSliderClass="PageHomeDemo4"
               />
-            </div>
+            </div> */}
 
             {/* SECTION 3 */}
             <SectionSubscribe2 className="py-16 lg:py-28" />
 
             {/* === SECTION 6 === */}
-            <SectionAds />
+            {/* <SectionAds /> */}
 
             {/* SECTION 3 */}
-            <SectionVideos className="py-16 lg:py-28" />
+            {/* <SectionVideos className="py-16 lg:py-28" /> */}
 
             {/* === SECTION 7 === */}
-            <div className="relative py-16">
+            {/* <div className="relative py-16">
               <BackgroundSection />
               <SectionGridPosts
                 headingIsCenter
@@ -175,16 +175,16 @@ const PageHomeDemo4: React.FC = () => {
                 posts={DEMO_POSTS_VIDEO.filter((_, i) => i > 5 && i < 12)}
                 gridClass="sm:grid-cols-2 lg:grid-cols-3"
               />
-            </div>
+            </div> */}
 
             {/* === SECTION 7 === */}
-            <SectionBecomeAnAuthor
+            {/* <SectionBecomeAnAuthor
               className="py-16 lg:py-28"
               rightImg={becomAuthorImg}
-            />
+            /> */}
           </div>
 
-          <div className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100">
+          {/* <div className="dark bg-neutral-900 dark:bg-black dark:bg-opacity-20 text-neutral-100">
             <div className="relative container ">
               <SectionGridPosts
                 className="py-16 lg:py-28"
@@ -195,7 +195,7 @@ const PageHomeDemo4: React.FC = () => {
                 gridClass="sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

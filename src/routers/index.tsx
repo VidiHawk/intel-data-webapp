@@ -21,11 +21,11 @@ import PageForgotPass from "containers/PageForgotPass/PageForgotPass";
 import PageDashboard from "containers/PageDashboard/PageDashboard";
 import PageSubcription from "containers/PageSubcription/PageSubcription";
 import HeaderContainer from "containers/HeaderContainer/HeaderContainer";
-import PageHome from "containers/PageHome/PageHome";
+import PageHome from "containers/PageHome/PageHomeDemo4";
 import PageHomeDemo2 from "containers/PageHome/PageHomeDemo2";
 import PageHomeDemo3 from "containers/PageHome/PageHomeDemo3";
 import PageAuthorV2 from "containers/PageAuthor/PageAuthorV2";
-import PageHomeDemo4 from "containers/PageHome/PageHomeDemo4";
+import PageHomeDemo4 from "containers/PageHome/PageHome";
 import PageSearchV2 from "containers/PageSearch/PageSearchV2";
 import PageSingleGallery from "containers/PageSingleGallery/PageSingleGallery";
 import PageSingleAudio from "containers/PageSingleAudio/PageSingleAudio";
@@ -104,7 +104,7 @@ export const pages: Page[] = [
   //
   { path: "/home-demo-2", component: PageHomeDemo2 },
   { path: "/home-demo-3", component: PageHomeDemo3 },
-  { path: "/home-demo-4", component: PageHomeDemo4 },
+  { path: "/", component: PageHomeDemo4 },
   { path: "/home-demo-5", component: PageHomeDemo5 },
   { path: "/home-demo-6", component: PageHomeDemo6 },
   { path: "/home-demo-7", component: PageHomeDemo7 },
@@ -114,9 +114,7 @@ export const pages: Page[] = [
 const Routes = () => {
   return (
     <BrowserRouter
-      basename={
-        import.meta.env.VITE_LRT_OR_RTL === "rtl" ? "/ncmaz-rtl" : "/ncmaz"
-      }
+
     >
       <MediaRunningContainer />
 
