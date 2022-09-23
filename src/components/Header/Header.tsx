@@ -189,7 +189,7 @@ const Header: FC<HeaderProps> = ({ mainNavStyle = "style1", isTopOfPage }) => {
 
       {/* RENDER PROGESSBAR FOR SINGLE PAGE */}
       {showSingleMenu && renderSingleHeader()}
-    </div>
+    </div> 
   );
 };
 

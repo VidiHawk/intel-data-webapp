@@ -55,7 +55,7 @@ const HeaderContainer: FC<HeaderContainerProps> = ({ className = "" }) => {
     },
   ]);
   const [headerSelected, setHeaderSelected] =
-    React.useState<SiteHeaders>("Header 3");
+    React.useState<SiteHeaders>("Header 1");
 
   const [isTopOfPage, setIsTopOfPage] = React.useState(window.pageYOffset < 5);
   const location = useLocation();
